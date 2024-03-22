@@ -1,0 +1,52 @@
+
+.hero{
+    width: 100%;
+    height: 1080px;
+    background-color: #141024;
+    color: azure;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 0;
+    gap: 20px;
+    position: relative;
+   
+}
+
+.hero > div>p{
+    max-width: 478px;
+}
+
+
+img{
+    max-width: 783px;   
+}
+
+
+  .wrapper {
+    flex: 1; 
+    
+  }
+  
+  img {
+    width:783px; 
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+   
+
+  }
+
+  h1 {
+    margin-bottom: 20px;
+   font-size: 60px;
+  }
+  
+  p {
+    margin-bottom: 50px;
+    font-style: regular;
+    font-size: 20px;
+   
+  }
+
+  
