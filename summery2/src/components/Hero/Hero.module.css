@@ -15,12 +15,11 @@
 
 .hero > div>p{
     max-width: 478px;
+    margin-bottom: 50px;
+    font-style: regular;
+    font-size: 20px;
 }
 
-
-img{
-    max-width: 783px;   
-}
 
 
   .wrapper {
@@ -42,11 +41,6 @@ img{
    font-size: 60px;
   }
   
-  p {
-    margin-bottom: 50px;
-    font-style: regular;
-    font-size: 20px;
-   
-  }
+
 
   

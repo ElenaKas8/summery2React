@@ -26,7 +26,7 @@ const statisticsData = [
 
 export default function StatisticsContainer() {
   return (
-    <div style={{ display: 'flex', gap: '20px' }}>
+    <div style={{ display: 'flex', gap: '40px', justifyContent: 'space-between' }}>
       {
         statisticsData.map(el => <StatisticsCard key={el.id} {...el} />)
       }
