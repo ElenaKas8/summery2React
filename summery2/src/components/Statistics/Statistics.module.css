@@ -1,0 +1,12 @@
+.statistics{
+    padding: 120px 0;
+}
+
+.statistics > p {
+    font-size: 30px;
+    width: 890px;
+  }
+  
+  .statistics > p span {
+    font-weight: 600;
+  }

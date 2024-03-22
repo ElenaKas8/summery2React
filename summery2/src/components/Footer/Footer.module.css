@@ -1,0 +1,25 @@
+.footer{
+    background-color: #141024;
+    color: azure;
+    padding: 40px 0 ;     
+   
+}
+
+.footer>div {
+    display: flex;
+    justify-content: space-between;
+}
+.footer>div>div p:first-child{
+   font-size: 30px;
+   font-weight:700;
+}
+
+.footer>div>p{
+    font-size: 30px;
+    font-weight: 700;
+}
+.footer>div>div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

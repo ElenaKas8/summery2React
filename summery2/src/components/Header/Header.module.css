@@ -1,0 +1,43 @@
+.header{
+    background-color: #141024;
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 ;
+ 
+    display: flex;
+    align-items: center;
+
+}
+
+.header p{
+    margin: 10px;
+}
+.header > div{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+  .header nav ul {
+    display: flex;
+    padding: 0;
+    gap: 40px;
+    
+  }
+  
+  .header nav ul li {
+    margin: 0 10px; 
+  }
+  
+.header>div p:first-child{
+
+    font-size: 30px;
+  font-weight: 700;
+}
+
+.header>div p:last-child{
+    font-size: 30px;
+  font-weight: 600;
+}
